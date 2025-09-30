@@ -9,7 +9,7 @@ A responsive React web app connected to WordPress (via REST API) for managing se
 
 **Service Manager** is a React frontend with:
 
-- Homepage with hero banner, brand name, tagline, and navigation  
+- Homepage with hero banner, brand name, tagline  
 - Services page: displays cards with image, title, description, price, filter/search  
 - Blog page: displays posts with image, title, excerpt, “Read More” link, filter/search  
 - Blog Details page  
@@ -41,9 +41,8 @@ Initially uses local JSON files (`services.json` and `blogs.json`) and later con
   - `X-Content-Type-Options`  
 - Additional headers recommended in production: `Strict-Transport-Security`, `Referrer-Policy`
 
----
 
-## 🔗 How React Connects to WordPress
+**How React Connects to WordPress**
 
 1. **Fetch Data from REST API:**  
    - React uses `fetch` or `axios` in `useEffect` to get data from WordPress endpoints.
@@ -56,10 +55,7 @@ useEffect(() => {
     .then(data => setServices(data))
     .catch(err => console.error(err));
 }, []);
-
-2. 
-
----
+```
 
 ## ⚙️ Setup & Run Instructions (Local Development)
 
@@ -148,4 +144,12 @@ Environment variables in Vite must start with VITE_. To set VITE_APP_ENV to wp, 
 React app fetches data directly from these WordPress REST API endpoints.
 
 
+## Demo
+
+The application is deployed and accessible at:
+
+- Frontend (React) : [https://service-manager-chi.vercel.app](https://service-manager-chi.vercel.app)
+- Backend (Wordpress) : [https://service-manager-chi.vercel.app](https://service-manager-chi.vercel.app)
+- Wordpress posts Rest API : [https://service-manager.infinityfreeapp.com/wp-json/wp/v2/posts](https://service-manager.infinityfreeapp.com/wp-json/wp/v2/posts)
+- Wordpress services Rest API : [https://service-manager.infinityfreeapp.com/wp-json/wp/v2/services](https://service-manager.infinityfreeapp.com/wp-json/wp/v2/services)
 
