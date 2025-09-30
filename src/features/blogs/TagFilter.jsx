@@ -9,7 +9,7 @@ export default function TagFilter({ tags, selectedTag, setSelectedTag }) {
           <button
             key={tag}
             onClick={() => setSelectedTag(tag)}
-            className={`px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 ${
+            className={`cursor-pointer px-3 py-1 rounded-full text-sm font-medium transition-all duration-300 ${
               selectedTag === tag
                 ? "bg-blue-500 text-white"
                 : "bg-gray-100 text-gray-600 hover:bg-gray-200"

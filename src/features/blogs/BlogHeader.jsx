@@ -58,7 +58,7 @@ export default function BlogHeader({ blog }) {
         <div className="flex items-center space-x-4 border-t border-gray-100 pt-6">
           <button
             onClick={() => setIsBookmarked(!isBookmarked)}
-            className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-300 hover:scale-105 active:scale-95 ${
+            className={`cursor-pointer flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-300 hover:scale-105 active:scale-95 ${
               isBookmarked
                 ? "bg-yellow-50 text-yellow-600 border border-yellow-200"
                 : "bg-gray-50 text-gray-600 hover:bg-gray-100"
@@ -70,7 +70,7 @@ export default function BlogHeader({ blog }) {
             <span>{isBookmarked ? "Bookmarked" : "Bookmark"}</span>
           </button>
 
-          <button className="flex items-center space-x-2 px-4 py-2 bg-gray-50 text-gray-600 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 active:scale-95">
+          <button className="cursor-pointer flex items-center space-x-2 px-4 py-2 bg-gray-50 text-gray-600 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 active:scale-95">
             <Share2 className="h-4 w-4" />
             <span>Share</span>
           </button>

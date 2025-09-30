@@ -9,25 +9,35 @@ export function useBlogDetails(id) {
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
+
       try {
-        const response = await fetch(
-          `${import.meta.env.VITE_APP_API_URL}/posts/${id}`
-        );
-        if (!response.ok) throw new Error("Failed to fetch blog");
+        if (import.meta.env.VITE_APP_ENV === "wp") {
+          const response = await fetch(
+            `${import.meta.env.VITE_APP_API_URL}/posts/${id}`
+          );
+          if (!response.ok) throw new Error("Failed to fetch blog");
+          const data = await response.json();
+          setBlog(data);
 
-        const data = await response.json();
+          const relatedResponse = await fetch(
+            `${import.meta.env.VITE_APP_API_URL}/posts?per_page=3&exclude=${id}`
+          );
+          const relatedData = await relatedResponse.json();
+          setRelatedBlogs(relatedData);
+        } else {
+          // Local JSON
+          const response = await fetch("/blogs.json");
+          const data = await response.json();
+          const foundBlog = data.blogs.find((b) => b.id === parseInt(id));
+          setBlog(foundBlog);
 
-        setBlog(data);
-
-        // If you want related blogs, fetch /posts separately
-        const relatedResponse = await fetch(
-          `${import.meta.env.VITE_APP_API_URL}/posts?per_page=3&exclude=${id}`
-        );
-        const relatedData = await relatedResponse.json();
-        setRelatedBlogs(relatedData);
-      } catch (err) {
-        console.error("Error fetching blog:", err);
-        setError(err.message);
+          setRelatedBlogs(
+            data.blogs.filter((b) => b.id !== parseInt(id)).slice(0, 3)
+          );
+        }
+      } catch (error) {
+        console.error("Error fetching blog:", error);
+        setError(error.message);
       } finally {
         setLoading(false);
       }

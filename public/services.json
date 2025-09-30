@@ -1,84 +1,84 @@
 {
   "services": [
     {
-      "id": 1,
-      "title": "Aromatherapy Massage",
-      "description": "Relaxing massage with essential oils.",
-      "price": 2500,
-      "image": "https://images.unsplash.com/photo-1606813902942-d9db0aef2b8a?auto=format&fit=crop&w=800&q=80",
-      "category": "Massage"
+      "id": 57,
+      "title": "Angular",
+      "description": "Angular is a Google-developed, TypeScript-based framework for building scalable, component-based single-page web applications.",
+      "price": "2000",
+      "image": "https://plus.unsplash.com/premium_photo-1668902223932-672a0dfbc21b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YW5ndWxhciUyMGpzfGVufDB8fDB8fHww",
+      "category": "Design"
     },
     {
-      "id": 2,
-      "title": "Facial Treatment",
-      "description": "Deep cleansing and skin hydration.",
-      "price": 1800,
-      "image": "https://images.unsplash.com/photo-1596863515692-891226f4b1f0?auto=format&fit=crop&w=800&q=80",
-      "category": "Skin Care"
+      "id": 56,
+      "title": "Web Design",
+      "description": "Improve website ranking, speed, and performance using SEO best practices.",
+      "price": "2500",
+      "image": "https://images.unsplash.com/photo-1487338875411-8880f74114a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
+      "category": "Design"
     },
     {
-      "id": 3,
-      "title": "Yoga Session",
-      "description": "One-hour guided yoga session.",
-      "price": 1500,
-      "image": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=800&q=80",
-      "category": "Wellness"
+      "id": 55,
+      "title": "SEO &#038; Performance Optimization",
+      "description": "Improve website ranking, speed, and performance using SEO best practices.",
+      "price": "3000",
+      "image": "https://plus.unsplash.com/premium_photo-1670213989458-a05faa974cc4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8U0VPJTIwJTI2JTIwUGVyZm9ybWFuY2UlMjBPcHRpbWl6YXRpb258ZW58MHx8MHx8fDA%3D",
+      "category": "Marketing"
     },
     {
-      "id": 4,
-      "title": "Swedish Full Body Massage",
-      "description": "Gentle massage to reduce tension and improve circulation.",
-      "price": 3000,
-      "image": "https://images.unsplash.com/photo-1588776814546-2047fc3531aa?auto=format&fit=crop&w=800&q=80",
-      "category": "Massage"
+      "id": 54,
+      "title": "Web Security Services",
+      "description": "Protect websites with SSL, firewalls, vulnerability scans, and penetration testing.",
+      "price": "9000",
+      "image": "https://plus.unsplash.com/premium_photo-1681487746049-c39357159f69?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8V2ViJTIwU2VjdXJpdHklMjBTZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D",
+      "category": "Security"
     },
     {
-      "id": 5,
-      "title": "Herbal Steam Therapy",
-      "description": "Detoxifying steam treatment with natural herbs.",
-      "price": 2000,
-      "image": "https://images.unsplash.com/photo-1617631920008-6d47a0f3141f?auto=format&fit=crop&w=800&q=80",
-      "category": "Therapy"
+      "id": 53,
+      "title": "Mobile App Development",
+      "description": "Cross-platform mobile apps using React Native or Flutter.",
+      "price": "20000",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TW9iaWxlJTIwQXBwJTIwRGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D",
+      "category": "Mobile Development"
     },
     {
-      "id": 6,
-      "title": "Hot Stone Massage",
-      "description": "Therapeutic massage using heated stones.",
-      "price": 3500,
-      "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80",
-      "category": "Massage"
+      "id": 52,
+      "title": "API Development",
+      "description": "Build robust REST and GraphQL APIs for web and mobile applications.",
+      "price": "8000",
+      "image": "https://images.unsplash.com/photo-1623282033815-40b05d96c903?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QVBJJTIwRGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D",
+      "category": "Web Development"
     },
     {
-      "id": 7,
-      "title": "Hair Spa",
-      "description": "Revitalizing treatment for healthy and shiny hair.",
-      "price": 1200,
-      "image": "https://images.unsplash.com/photo-1590080879840-3b4d0b5f56c6?auto=format&fit=crop&w=800&q=80",
-      "category": "Hair Care"
+      "id": 51,
+      "title": "UI/UX Design",
+      "description": "Designing intuitive and beautiful user experiences using Figma and Adobe XD.",
+      "price": "6000",
+      "image": "https://plus.unsplash.com/premium_photo-1661412938808-a0f7be3c8cf1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VUklMkZVWCUyMERlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
+      "category": "Design"
     },
     {
-      "id": 8,
-      "title": "Ayurvedic Therapy",
-      "description": "Traditional Ayurvedic healing session.",
-      "price": 2800,
-      "image": "https://images.unsplash.com/photo-1593990916276-8db1e2f4ef71?auto=format&fit=crop&w=800&q=80",
-      "category": "Wellness"
+      "id": 50,
+      "title": "E-commerce Development",
+      "description": "Develop online stores using WooCommerce, Shopify, or custom MERN stack solutions.",
+      "price": "15000",
+      "image": "https://plus.unsplash.com/premium_photo-1683984171269-04c84ee23234?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RSUyMGNvbW1lcmNlJTIwRGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D",
+      "category": "E-commerce"
     },
     {
-      "id": 9,
-      "title": "Manicure & Pedicure",
-      "description": "Complete hand and foot care package.",
-      "price": 1000,
-      "image": "https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=800&q=80",
-      "category": "Skin Care"
+      "id": 49,
+      "title": "WordPress Development",
+      "description": "Custom WordPress themes, plugins, and REST API integration.",
+      "price": "4000",
+      "image": "https://images.unsplash.com/photo-1678341859828-bfb1a2bd527a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8V29yZFByZXNzJTIwRGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D",
+      "category": "CMS Development"
     },
     {
-      "id": 10,
-      "title": "Couple Spa Package",
-      "description": "Relaxing spa experience for two.",
-      "price": 5000,
-      "image": "https://images.unsplash.com/photo-1592878849124-35a6e2b2b6cd?auto=format&fit=crop&w=800&q=80",
-      "category": "Spa"
+      "id": 48,
+      "title": "Full Stack Development",
+      "description": "Complete web application solutions covering both frontend and backend.",
+      "price": "12000",
+      "image": "https://plus.unsplash.com/premium_photo-1685086785223-485f800ce410?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RnVsbCUyMFN0YWNrJTIwRGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D",
+      "category": "Web Development"
     }
   ]
 }

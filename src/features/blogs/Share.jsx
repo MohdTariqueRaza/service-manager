@@ -17,7 +17,7 @@ export default function Share() {
         {shareTypes.map((social) => (
           <button
             key={social.label}
-            className={`${social.color} text-white p-3 rounded-xl hover:shadow-lg transition-all duration-300 hover:scale-110 active:scale-95`}
+            className={`${social.color} text-white p-3 rounded-xl hover:shadow-lg transition-all duration-300 hover:scale-110 active:scale-95 cursor-pointer`}
           >
             <social.icon className="h-5 w-5" />
           </button>

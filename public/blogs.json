@@ -1,15 +1,114 @@
 {
   "blogs": [
     {
+      "id": 12,
+      "title": "Mastering CSS Grid",
+      "excerpt": "A comprehensive guide to CSS Grid layouts",
+      "content": "<p>Full blog content here&#8230;</p>\n",
+      "image": "https://service-manager.infinityfreeapp.com/wp-content/uploads/2025/09/css-grid.jpg",
+      "category": "Design",
+      "tags": ["CSS"],
+      "date": "2025-09-28",
+      "author": "tarique_zayan"
+    },
+    {
+      "id": 13,
+      "title": "Introduction to Node.js",
+      "excerpt": "Understand the basics of Node.js for backend development",
+      "content": "<p>Full blog content here&#8230;</p>\n",
+      "image": "https://service-manager.infinityfreeapp.com/wp-content/uploads/2025/09/node.jpg",
+      "category": "Backend",
+      "tags": ["APIs", "Backend"],
+      "date": "2025-09-28",
+      "author": "tarique_zayan"
+    },
+    {
+      "id": 14,
+      "title": "Understanding REST APIs",
+      "excerpt": "Learn how to design and consume RESTful APIs",
+      "content": "<p>Full blog content here&#8230;</p>\n",
+      "image": "https://service-manager.infinityfreeapp.com/wp-content/uploads/2025/09/node.jpg",
+      "category": "Backend",
+      "tags": ["Nodejs"],
+      "date": "2025-09-28",
+      "author": "tarique_zayan"
+    },
+    {
+      "id": 15,
+      "title": "JavaScript ES6 Features",
+      "excerpt": "Explore the new features introduced in ES6",
+      "content": "<p>Full blog content here&#8230;</p>\n",
+      "image": "https://service-manager.infinityfreeapp.com/wp-content/uploads/2025/09/js.jpg",
+      "category": "Backend",
+      "tags": ["Backend", "Frontend"],
+      "date": "2025-09-28",
+      "author": "tarique_zayan"
+    },
+    {
+      "id": 16,
+      "title": "Building Responsive Websites",
+      "excerpt": "Tips and tricks for making websites mobile-friendly",
+      "content": "<p>Full blog content here&#8230;</p>\n",
+      "image": "https://service-manager.infinityfreeapp.com/wp-content/uploads/2025/09/responsive.jpg",
+      "category": "Design",
+      "tags": ["CSSS", "Design", "Tailwind"],
+      "date": "2025-09-28",
+      "author": "tarique_zayan"
+    },
+    {
+      "id": 17,
+      "title": "Vue.js for Beginners",
+      "excerpt": "Start building modern web apps with Vue.js",
+      "content": "<p>Full blog content here&#8230;</p>\n",
+      "image": "https://service-manager.infinityfreeapp.com/wp-content/uploads/2025/09/vue.jpg",
+      "category": "Development",
+      "tags": ["JavaScript.Frontend"],
+      "date": "2025-09-28",
+      "author": "tarique_zayan"
+    },
+    {
+      "id": 18,
+      "title": "Python for Web Development",
+      "excerpt": "Using Python frameworks to build web applications",
+      "content": "<p>Full blog content here&#8230;</p>\n",
+      "image": "https://service-manager.infinityfreeapp.com/wp-content/uploads/2025/09/python.jpg",
+      "category": "Development",
+      "tags": ["Backned", "Games"],
+      "date": "2025-09-28",
+      "author": "tarique_zayan"
+    },
+    {
+      "id": 19,
+      "title": "Getting Started with TypeScript",
+      "excerpt": "A beginner's guide to using TypeScript in projects",
+      "content": "<p>Full blog content here&#8230;</p>\n",
+      "image": "https://service-manager.infinityfreeapp.com/wp-content/uploads/2025/09/typescript.jpg",
+      "category": "Development",
+      "tags": ["Frontend", "React"],
+      "date": "2025-09-28",
+      "author": "tarique_zayan"
+    },
+    {
+      "id": 20,
+      "title": "Diving into GraphQL",
+      "excerpt": "Learn GraphQL and its advantages over REST",
+      "content": "<p>Full blog content here&#8230;</p>\n",
+      "image": "https://service-manager.infinityfreeapp.com/wp-content/uploads/2025/09/Web-Security-Services.jpg",
+      "category": "Backend",
+      "tags": ["Backend", "JavaScript"],
+      "date": "2025-09-28",
+      "author": "tarique_zayan"
+    },
+    {
       "id": 1,
-      "title": "Getting Started with React",
-      "excerpt": "Learn the fundamentals of React development",
-      "content": "Full blog content here...",
-      "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "category": "development",
-      "tags": ["react", "javascript", "frontend"],
-      "date": "2023-12-15",
-      "author": "John Doe"
+      "title": "HTML",
+      "excerpt": "jghjghjghj",
+      "content": "\n<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n",
+      "image": "https://service-manager.infinityfreeapp.com/wp-content/uploads/2025/09/p-1.png",
+      "category": "4234234",
+      "tags": ["Deisgn", "Frontend"],
+      "date": "2025-09-28",
+      "author": "tarique_zayan"
     }
   ]
 }
