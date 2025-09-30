@@ -43,10 +43,28 @@ Initially uses local JSON files (`services.json` and `blogs.json`) and later con
 
 ---
 
+## 🔗 How React Connects to WordPress
+
+1. **Fetch Data from REST API:**  
+   - React uses `fetch` or `axios` in `useEffect` to get data from WordPress endpoints.
+   - Example for services:
+
+```javascript
+useEffect(() => {
+  fetch('https://service-manager.infinityfreeapp.com/wp-json/wp/v2/services')
+    .then(res => res.json())
+    .then(data => setServices(data))
+    .catch(err => console.error(err));
+}, []);
+
+2. 
+
+---
+
 ## ⚙️ Setup & Run Instructions (Local Development)
 
 
-## Run React Locally
+## 2️⃣ Run React Locally
 
 Clone the project
 
@@ -75,14 +93,14 @@ Start the server
 - Open browser at: http://localhost:5173/
 
 
-## Run WordPress Locally
+## 2️⃣ Run WordPress Locally
 
 - Install WordPress using XAMPP
 - Create Custom Post Type services
 - Add blog posts using default WordPress posts
 
 
-## Switching from JSON to WordPress
+## 🔄 Switching from JSON to WordPress
 
 ### 1. Open your .env file
 In your project root, you should have a .env file (create one if it doesn’t exist).
@@ -93,7 +111,7 @@ Environment variables in Vite must start with VITE_. To set VITE_APP_ENV to wp, 
 `VITE_APP_ENV=wp`
 
 
-## reCAPTCHA Setup
+## 🛡 reCAPTCHA Setup
 
 - Google reCAPTCHA v2 used for contact form
 - For demo, use mock keys in .env:
@@ -102,7 +120,7 @@ Environment variables in Vite must start with VITE_. To set VITE_APP_ENV to wp, 
 `VITE_APP_SECRET_KEY = 6LeIz9YrAAAAAOOp8BCGWJQt47GyMTb90pdYRp_y`
 
 
-## Deployment
+## 🚀 Deployment
 
 ### Frontend (React App on Vercel)
 
