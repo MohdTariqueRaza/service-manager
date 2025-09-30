@@ -1,0 +1,84 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Aromatherapy Massage",
+      "description": "Relaxing massage with essential oils.",
+      "price": 2500,
+      "image": "https://images.unsplash.com/photo-1606813902942-d9db0aef2b8a?auto=format&fit=crop&w=800&q=80",
+      "category": "Massage"
+    },
+    {
+      "id": 2,
+      "title": "Facial Treatment",
+      "description": "Deep cleansing and skin hydration.",
+      "price": 1800,
+      "image": "https://images.unsplash.com/photo-1596863515692-891226f4b1f0?auto=format&fit=crop&w=800&q=80",
+      "category": "Skin Care"
+    },
+    {
+      "id": 3,
+      "title": "Yoga Session",
+      "description": "One-hour guided yoga session.",
+      "price": 1500,
+      "image": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=800&q=80",
+      "category": "Wellness"
+    },
+    {
+      "id": 4,
+      "title": "Swedish Full Body Massage",
+      "description": "Gentle massage to reduce tension and improve circulation.",
+      "price": 3000,
+      "image": "https://images.unsplash.com/photo-1588776814546-2047fc3531aa?auto=format&fit=crop&w=800&q=80",
+      "category": "Massage"
+    },
+    {
+      "id": 5,
+      "title": "Herbal Steam Therapy",
+      "description": "Detoxifying steam treatment with natural herbs.",
+      "price": 2000,
+      "image": "https://images.unsplash.com/photo-1617631920008-6d47a0f3141f?auto=format&fit=crop&w=800&q=80",
+      "category": "Therapy"
+    },
+    {
+      "id": 6,
+      "title": "Hot Stone Massage",
+      "description": "Therapeutic massage using heated stones.",
+      "price": 3500,
+      "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80",
+      "category": "Massage"
+    },
+    {
+      "id": 7,
+      "title": "Hair Spa",
+      "description": "Revitalizing treatment for healthy and shiny hair.",
+      "price": 1200,
+      "image": "https://images.unsplash.com/photo-1590080879840-3b4d0b5f56c6?auto=format&fit=crop&w=800&q=80",
+      "category": "Hair Care"
+    },
+    {
+      "id": 8,
+      "title": "Ayurvedic Therapy",
+      "description": "Traditional Ayurvedic healing session.",
+      "price": 2800,
+      "image": "https://images.unsplash.com/photo-1593990916276-8db1e2f4ef71?auto=format&fit=crop&w=800&q=80",
+      "category": "Wellness"
+    },
+    {
+      "id": 9,
+      "title": "Manicure & Pedicure",
+      "description": "Complete hand and foot care package.",
+      "price": 1000,
+      "image": "https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?auto=format&fit=crop&w=800&q=80",
+      "category": "Skin Care"
+    },
+    {
+      "id": 10,
+      "title": "Couple Spa Package",
+      "description": "Relaxing spa experience for two.",
+      "price": 5000,
+      "image": "https://images.unsplash.com/photo-1592878849124-35a6e2b2b6cd?auto=format&fit=crop&w=800&q=80",
+      "category": "Spa"
+    }
+  ]
+}
