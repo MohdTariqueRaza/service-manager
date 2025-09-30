@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { API_URL } from "../../utils/contants";
+import { REACT_APP_API_URL } from "../../utils/contants";
 export function useFetchBlogs() {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -16,7 +16,7 @@ export function useFetchBlogs() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`${API_URL}/posts`)
+    fetch(`${REACT_APP_API_URL}/posts`)
       .then((response) => response.json())
       .then((data) => {
         setBlogs(data);

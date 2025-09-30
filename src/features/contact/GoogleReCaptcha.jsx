@@ -1,5 +1,5 @@
 import ReCAPTCHA from "react-google-recaptcha";
-import { SITE_KEY } from "../../utils/contants";
+import { REACT_APP_SITE_KEY } from "../../utils/contants";
 export default function GoogleReCaptcha({ setIsRecaptchaVerified }) {
   function handleRecaptchaChange(value) {
     setIsRecaptchaVerified(!!value);
@@ -9,7 +9,10 @@ export default function GoogleReCaptcha({ setIsRecaptchaVerified }) {
       <label className="block text-sm font-medium text-gray-700 mb-2">
         Security Check
       </label>
-      <ReCAPTCHA sitekey={SITE_KEY} onChange={handleRecaptchaChange} />
+      <ReCAPTCHA
+        sitekey={REACT_APP_SITE_KEY}
+        onChange={handleRecaptchaChange}
+      />
     </div>
   );
 }

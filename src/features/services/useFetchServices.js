@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { API_URL } from "../../utils/contants";
+import { REACT_APP_API_URL } from "../../utils/contants";
 export function useFetchServices() {
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -16,7 +16,7 @@ export function useFetchServices() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`${API_URL}/services`)
+    fetch(`${REACT_APP_API_URL}/services`)
       .then((response) => response.json())
       .then((data) => {
         setServices(data);
