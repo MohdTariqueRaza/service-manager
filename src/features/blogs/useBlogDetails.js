@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { REACT_APP_API_URL } from "../../utils/contants";
+
 export function useBlogDetails(id) {
   const [blog, setBlog] = useState(null);
   const [relatedBlogs, setRelatedBlogs] = useState([]);
@@ -10,7 +10,9 @@ export function useBlogDetails(id) {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const response = await fetch(`${REACT_APP_API_URL}/posts/${id}`);
+        const response = await fetch(
+          `${import.meta.env.VITE_APP_API_URL}/posts/${id}`
+        );
         if (!response.ok) throw new Error("Failed to fetch blog");
 
         const data = await response.json();
@@ -19,7 +21,7 @@ export function useBlogDetails(id) {
 
         // If you want related blogs, fetch /posts separately
         const relatedResponse = await fetch(
-          `${REACT_APP_API_URL}/posts?per_page=3&exclude=${id}`
+          `${import.meta.env.VITE_APP_API_URL}/posts?per_page=3&exclude=${id}`
         );
         const relatedData = await relatedResponse.json();
         setRelatedBlogs(relatedData);

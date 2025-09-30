@@ -1,5 +1,4 @@
 import ReCAPTCHA from "react-google-recaptcha";
-import { REACT_APP_SITE_KEY } from "../../utils/contants";
 export default function GoogleReCaptcha({ setIsRecaptchaVerified }) {
   function handleRecaptchaChange(value) {
     setIsRecaptchaVerified(!!value);
@@ -10,7 +9,7 @@ export default function GoogleReCaptcha({ setIsRecaptchaVerified }) {
         Security Check
       </label>
       <ReCAPTCHA
-        sitekey={REACT_APP_SITE_KEY}
+        sitekey={import.meta.env.VITE_APP_SITE_KEY}
         onChange={handleRecaptchaChange}
       />
     </div>
